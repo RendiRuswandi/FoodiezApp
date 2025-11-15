@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Eye, EyeOff, UtensilsCrossed } from 'lucide-react-native';
-import { Button } from '../../../components/ui/button';
-import { Input } from '../../../components/ui/input';
+import { Button } from '../../components/ui/button';
+import { Input } from '../../components/ui/input';
 
 interface LoginScreenProps {
   onLogin: (name?: string) => void;
